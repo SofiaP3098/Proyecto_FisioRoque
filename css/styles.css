@@ -297,34 +297,7 @@
 
 /*CARUSEL*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
-/*
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
-}
-body{
-  display: flex;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
-  background: #f2f2f2;
-  position: relative;
-}
-body::before{
-  content: '';
-  position: absolute;
-  width: 100%;
-  background: #FF676D;
-  clip-path: inset(47% 0 0 0);
-  z-index: -1;
-  height: 100%;
-}
-::selection{
-  background:	#FF676D;
-  color: #fff;
-}*/
+
 .container {
   margin: 0;
   padding: 0;
@@ -468,6 +441,11 @@ body::before{
   width: 35px;
 }
 
+/*Testimonios*/
+.testimonio{
+  background: rgb(132, 215, 226);
+  margin-top: 1rem;
+}
 
 @media (min-width: 854px) {
 
