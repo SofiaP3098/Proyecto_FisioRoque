@@ -19,39 +19,36 @@
     <header class="header">
         <nav class="header-nav">
             <div class="header-nav__container">
-                <a href="#" class="header-nav__link-logo-container">
+                <a href="#inicio" class="header-nav__link-logo-container">
                     <img src="img/logofinal.png" alt="logotipo" width="350" height="110"
                         class="header-nav__link-logo" />
                 </a>
-                <button class="header-nav__menu-icon-container" id="menuIconContainer"><i
-                        class="bi bi-list"></i></button>
+                <label for="menu" class="header-nav__menu-icon-container" id="menuIconContainer"><i
+                        class="bi bi-list"></i></label>
+                <input type="checkbox" id="menu" class="header-nav__menu-input">
                 <ul class="header-nav__menu-list">
-                    <li class="header-nav__menu-item"><a href="#" class="header-nav__menu-link">INICIO</a></li>
+                    <li class="header-nav__menu-item"><a href="#inicio" class="header-nav__menu-link">INICIO</a></li>
                     <li class="header-nav__menu-item"><a href="#nosotros" class="header-nav__menu-link">NOSOTROS</a>
                     </li>
-                    <li class="header-nav__menu-item"><a href="#" class="header-nav__menu-link">ESPECIALIDADES</a></li>
-                    <li class="header-nav__menu-item"><a href="#" class="header-nav__menu-link">SERVICIOS</a></li>
-                    <li class="header-nav__menu-item"><a href="#" class="header-nav__menu-link">CONTACTO</a></li>
-                    <li class="header-nav__menu-item header-nav__menu-item--menu-close">
-                        <button class="header-nav__menu-close-icon-container" id="menuCloseIconContainer">
-                            <i class="bi bi-x-circle"></i>
-                        </button>
-                    </li>
+                    <li class="header-nav__menu-item"><a href="#servicios" class="header-nav__menu-link">SERVICIOS</a></li>
+                    <li class="header-nav__menu-item"><a href="#testimonios" class="header-nav__menu-link">TESTIMONIOS</a></li>
+                    <li class="header-nav__menu-item"><a href="#contacto" class="header-nav__menu-link">CONTACTO</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <section class="banner">
+        <section class="banner" id="inicio">
             <img src="https://i.postimg.cc/qqFwwd9m/img.webp" class="banner-img" />
             <div class="banner-container">
                 <h1 class="banner-container-h1">TERAPIA FISICA</h1>
                 <h2 class="banner-container-h2">TERAPIA RESPIRATORIA</h2>
-                <a href="#" class="banner-container-boton">Ver más</a>
+                <a href="#servicios" class="banner-container-boton">Ver más</a>
             </div>
         </section>
         <section class="nosotros" id="nosotros">
             <div class="nosotros-container">
+                <h2 class="nosotros-container-title">Nosotros</h2>
                 <p class="nosotros-container-p">Todo el equipo de fisioterapeutas de FISIO-ROQUE es personal titulado,
                     lo que garantiza que todos los
                     servicios ofrecidos en nuestras clínicas se desarrollen con altos conocimientos, calidad y por
@@ -67,7 +64,7 @@
     </main>
     <!--servicios-->
     <!-- carusel-->
-    <div class="container">
+    <div class="container" id="servicios">
         <h2>Nuestros servicios</h2>
       <input type="radio" name="dot" id="one" />
       <input type="radio" name="dot" id="two" />
@@ -169,7 +166,7 @@
 
     <!--testimonios-->
     <!-- carusel-->
-    <div class="container testimonio">
+    <div class="container testimonio" id="testimonios">
         <h2>Testimonios</h2>
       <input type="radio" name="dot" id="one" />
       <input type="radio" name="dot" id="two" />
@@ -226,7 +223,7 @@
     </section>
 
     <!--Mapa-->
-    <h2>Mapa</h2>
+    <h2>Ubícanos</h2>
     <section class="body-ubicanos">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d984.9800109047709!2d-78.57886587081752!3d-9.071048875260677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ab8139f6534f63%3A0x336124fba3666763!2sAv.%20Peru%20429%2C%20Chimbote%2002801!5e0!3m2!1ses!2spe!4v1658284020469!5m2!1ses!2spe"
@@ -234,7 +231,7 @@
         </iframe>
     </section>
 
-    <footer class="body-footer">
+    <footer class="body-footer" id="contacto">
         <div class="body-footer-izquierdo">
 
             <a href="#" class="footer-logo-container">
